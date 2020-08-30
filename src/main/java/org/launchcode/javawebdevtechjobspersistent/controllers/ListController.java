@@ -34,6 +34,8 @@ public class ListController {
 
     @RequestMapping("")
     public String list(Model model) {
+//        model.addAttribute("employers", );
+//        model.addAttribute("skills", );
 
         return "list";
     }
